@@ -20,3 +20,5 @@ const createUser = async (req, res) => {
         console.log(e)
     }
 }
+
+module.exports = createUser

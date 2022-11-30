@@ -1,7 +1,7 @@
 const express = require("express"); 
 const recurso = express.Router();
-const {getRecursoById, createRecurso, UpdateRecursoById, deleteRecursoById} = require('../controllers/usersController');
-const ValidateUser = require("../models/user.model");
+const {getRecursoById, createRecurso, UpdateRecursoById, deleteRecursoById} = require('../controllers/recursoController');
+
 
 
 recurso.get('/:id',  getRecursoById);

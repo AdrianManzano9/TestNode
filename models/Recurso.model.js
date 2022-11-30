@@ -11,3 +11,5 @@ var Recurso = sequelize.define('recurso', {
     mensaje: Sequelize.STRING,
 
 });
+
+module.exports = Recurso
